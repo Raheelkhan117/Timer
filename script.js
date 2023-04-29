@@ -62,6 +62,7 @@ class Timer {
         if (this.remainingSeconds === 0) {
           this.stop();
           audio.play();
+          alert("Time UP!")
         }
       }, 1000);
   
